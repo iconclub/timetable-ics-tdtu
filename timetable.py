@@ -230,11 +230,8 @@ class Schedule:
 
 
 if __name__ == "__main__":
-    # username = input("Nhập mssv: ")
-    # password = input("Nhập mật khẩu: ")
-
-    username = "51800867"
-    password = "12345678"
+    username = input("Nhập mssv: ")
+    password = input("Nhập mật khẩu: ")
 
     Semester.username = username
     Semester.password = password
