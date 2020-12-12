@@ -1,0 +1,4 @@
+arrow==0.14.7
+ics==0.7
+inquirer==2.7.0
+requests==2.25.0
