@@ -276,7 +276,7 @@ if __name__ == "__main__":
             events = course.to_ics()
             for event in events:
                 c.events.add(event)
-        with open('tdtu.ics', 'w') as my_file:
+        with open('tdtu.ics', 'w', encoding='utf-8') as my_file:
             my_file.writelines(c)
         print("Đã xuất ra file tdtu.ics")
 
