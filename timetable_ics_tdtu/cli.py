@@ -1,10 +1,11 @@
 import inquirer
 import time
+import getpass
 from .modules.timetable import TimeTable
 
 def main():
     username = input("Nhập mssv: ")
-    password = input("Nhập mật khẩu: ")
+    password = getpass.getpass("Nhập mật khẩu: ")
     start = time.time()
     timetable = TimeTable()
     timetable.set_username_password(username, password)
