@@ -36,7 +36,7 @@ def main():
 
     if answers['export'] == "Có":
         calendar = semester.to_ics()
-        with open('tdtu.ics', 'w') as my_file:
+        with open('tdtu.ics', 'w', encoding='utf8') as my_file:
             my_file.writelines(calendar)
 
     end = time.time()

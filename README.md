@@ -16,10 +16,10 @@ Hướng dẫn
 pip install -r requirements.txt
 `
 
-2. Chạy file timetable.py.
+2. Chạy file main.py.
 
 `
-python timetable.py
+python main.py
 `
 
 3. Lần lượt nhập mssv và password, rồi chọn học kỳ.
